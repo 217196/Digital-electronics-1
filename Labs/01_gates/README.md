@@ -8,3 +8,18 @@
      fnor_o <= not(b_i or not a_i) or not(c_i or b_i);
 ```
 [Link](https://www.edaplayground.com/x/MgMM) to my EDA Playground
+
+
+screenshot of simulation result ![here](pictures/screen3.png)
+
+| **c** | **b** |**a** | **f(c,b,a)** | **f(c,b,a) nand** | **f(c,b,a) nor** |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+|  0  |  0  |  0  |  1  |  1  |  1  | 
+|  0  |  0  |  1  |  1  |  1  |  1  |   
+|  0  |  1  |  0  |  0  |  0  |  0  |    
+|  0  |  1  |  1  |  0  |  0  |  0  |     
+|  1  |  0  |  0  |  0  |  0  |  0  |   
+|  1  |  0  |  1  |  1  |  1  |  1  |   
+|  1  |  1  |  0  |  0  |  0  |  0  |    
+|  1  |  1  |  1  |  0  |  0  |  0  |
+
