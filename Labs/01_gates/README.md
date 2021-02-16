@@ -23,3 +23,8 @@ screenshot of simulation result ![here](pictures/screen3.png)
 |  1  |  1  |  0  |  0  |  0  |  0  |    
 |  1  |  1  |  1  |  0  |  0  |  0  |
 
+# 3. Verification of Distributive laws
+[Link](https://www.edaplayground.com/x/Mraf) to my EDA Playground
+
+
+screenshot of simulation result ![here](pictures/screen4.png)
