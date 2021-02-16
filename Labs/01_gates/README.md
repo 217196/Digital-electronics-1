@@ -24,6 +24,12 @@ screenshot of simulation result ![here](pictures/screen3.png)
 |  1  |  1  |  1  |  0  |  0  |  0  |
 
 # 3. Verification of Distributive laws
+```vhdl
+     f1_o  <= (a_i and b_i) or (a_i and c_i);
+     f2_o <= a_i and (b_i or c_i);
+     f3_o <= (a_i or b_i) and (a_i or c_i);
+     f4_o <= a_i or (b_i and c_i);
+```
 [Link](https://www.edaplayground.com/x/Mraf) to my EDA Playground
 
 
