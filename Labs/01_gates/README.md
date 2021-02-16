@@ -1,0 +1,10 @@
+# Submitting the GitHub link
+[Link](https://github.com/217196/Digital-electronics-1) to my repository
+
+# Verification of De Morgan's laws of function f(c,b,a)
+```vhdl  
+     fo_o  <= (a_i and not b_i) or (not b_i and not c_i);
+     fnand_o <= not(not((not b_i) and a_i) and not(not c_i and not b_i));
+     fnor_o <= not(b_i or not a_i) or not(c_i or b_i);
+```
+[Link](https://www.edaplayground.com/x/MgMM) to my EDA Playground
