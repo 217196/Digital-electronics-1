@@ -17,4 +17,4 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-EDA Playground link [here](https://www.edaplayground.com/x/b3WK)
+EDA Playground link (for 2-bit comparator) [here](https://www.edaplayground.com/x/b3WK)
