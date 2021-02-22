@@ -30,4 +30,6 @@
  EDA Playground link (for 2-bit comparator) [here](https://www.edaplayground.com/x/b3WK)
  
 # 4-bit comparator
-EDA Playground link (for 4-bit comparator) [here](https://www.edaplayground.com/x/8T5J)
+EDA Playground link (for 4-bit comparator) [here](https://www.edaplayground.com/x/qNAK#)
+
+
