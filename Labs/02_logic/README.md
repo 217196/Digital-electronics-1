@@ -1,4 +1,5 @@
-Binary comparator truth table
+# Preparation tasks
+## Binary comparator truth table
 
 | *Dec. equivalent* | *B[1:0]* | *A[1:0]* | *B is greater than A* | *B equals A* | *B is less than A* |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -18,6 +19,10 @@ Binary comparator truth table
 | 13 | 1 1 | 0 1 | 1 | 0 | 0 |
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
+
+# 2-bit comparator
+## Karnaugh maps for all 3 functions (including SoP and PoS)
+ 
 
 EDA Playground link (for 2-bit comparator) [here](https://www.edaplayground.com/x/b3WK)
 
