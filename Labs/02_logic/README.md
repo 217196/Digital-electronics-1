@@ -22,6 +22,7 @@
 
 # 2-bit comparator
 ## Karnaugh maps for all 3 functions (including SoP and PoS)
+
  
 
 EDA Playground link (for 2-bit comparator) [here](https://www.edaplayground.com/x/b3WK)
