@@ -27,7 +27,6 @@
 ![BlA](images/B_less_A.png)
 
 ![BeA](images/B_equals_A.png)
- 
  EDA Playground link (for 2-bit comparator) [here](https://www.edaplayground.com/x/b3WK)
  
 # 4-bit comparator
