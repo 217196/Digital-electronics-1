@@ -83,4 +83,6 @@ VHDL Testbench
 
 end architecture testbench;
 ```
+
+
 EDA Playground link (for 4-bit comparator) [here](https://www.edaplayground.com/x/qNAK#)
