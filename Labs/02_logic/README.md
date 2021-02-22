@@ -31,7 +31,7 @@
  
 # 4-bit comparator
 
-VHDL Code
+## VHDL Code
 ```vhdl
 architecture Behavioral of comparator_4bit is
 begin
@@ -46,7 +46,7 @@ begin
     
 end architecture Behavioral;
 ```
-VHDL Testbench
+## VHDL Testbench
 ```vhdl
   p_stimulus : process
     begin
