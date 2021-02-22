@@ -23,8 +23,12 @@
 # 2-bit comparator
 ## Karnaugh maps for all 3 functions (including SoP and PoS)
 ![BgA](images/B_greater_A.png)
+
+![BlA](images/B_less_A.png)
+
+![BeA](images/B_equals_A.png)
  
-
-EDA Playground link (for 2-bit comparator) [here](https://www.edaplayground.com/x/b3WK)
-
+ EDA Playground link (for 2-bit comparator) [here](https://www.edaplayground.com/x/b3WK)
+ 
+# 4-bit comparator
 EDA Playground link (for 4-bit comparator) [here](https://www.edaplayground.com/x/8T5J)
