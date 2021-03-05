@@ -23,7 +23,7 @@
 
 ![tab](images/tab.png)
 
-## Two-bit wide 4-to-1 multiplexer
+## 2. Two-bit wide 4-to-1 multiplexer
 ### Listing of VHDL architecture from source file mux_2bit_4to1.vhd with syntax highlighting
 ```vhdl
 architecture Behavioral of mux_2bit_4to1 is
@@ -70,7 +70,7 @@ end architecture testbench;
 ### Screenshot with simulated time waveforms; always display all inputs and outputs
 ![tb](images/tb1.png)
 
-### A Vivado tutorial
+### 3. A Vivado tutorial
 Start by opening Vivado and creating a project
 
 ![step1](images/step1.png)
