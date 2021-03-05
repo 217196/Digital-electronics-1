@@ -68,3 +68,4 @@ end architecture Behavioral;
 end architecture testbench;
 ```
 ### Screenshot with simulated time waveforms; always display all inputs and outputs
+![tb](images/tb1.png)
