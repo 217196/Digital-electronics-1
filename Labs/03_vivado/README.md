@@ -69,3 +69,36 @@ end architecture testbench;
 ```
 ### Screenshot with simulated time waveforms; always display all inputs and outputs
 ![tb](images/tb1.png)
+
+### A Vivado tutorial
+Start by opening Vivado and creating a project
+
+![step1](images/step1.png)
+
+Name your project and select desired directory
+
+![step2](images/step2.png)
+
+Select RTL Project
+
+![step3](images/step3.png)
+
+Select "Create a File" and then choose VHDL and name your new project
+
+![step4](images/step4.png)
+
+Skip adding constrants for now
+
+![step5](images/step5.png)
+
+Opt for "Boards" and pick desired board
+
+![step6](images/step6.png)
+
+Add simulation sources and constrants 
+
+![step7](images/step7.png)
+
+And launch the simulation
+
+
