@@ -43,31 +43,26 @@ begin
     --------------------------------------------------------------------
     -- Data generation process
     --------------------------------------------------------------------
-  p_stimulus : process
+     p_stimulus : process
     begin
-        
+        report "Stimulus process started" severity note;
+
+
         s_d <= "00"; s_c <= "00"; s_b <= "00"; s_a <= "00";
-        s_sel <= "00"; wait for 50 ns;
+        s_sel <= "00"; wait for 100 ns;
         
-        s_d <= "00"; s_c <= "00"; s_b <= "00"; s_a <= "01";
-        s_sel <= "00"; wait for 50 ns;
+        s_d <= "00"; s_c <= "00"; s_b <= "10"; s_a <= "00";
+        s_sel <= "00"; wait for 100 ns;
         
-        s_d <= "00"; s_c <= "00"; s_b <= "01"; s_a <= "00";
-        s_sel <= "00"; wait for 50 ns;
+        s_d <= "00"; s_c <= "10"; s_b <= "01"; s_a <= "11";
+        s_sel <= "00"; wait for 100 ns;
         
-        s_d <= "00"; s_c <= "00"; s_b <= "01"; s_a <= "01";
-        s_sel <= "00"; wait for 50 ns;
-        
-        s_d <= "00"; s_c <= "00"; s_b <= "00"; s_a <= "00";
-        s_sel <= "00"; wait for 50 ns;
-        
-        s_d <= "00"; s_c <= "11"; s_b <= "00"; s_a <= "00";
-        s_sel <= "00"; wait for 50 ns;
-        
+        s_d <= "10"; s_c <= "11"; s_b <= "01"; s_a <= "00"; 
+        s_sel <= "10"; wait for 100 ns;
+
         
         report "Stimulus process finished" severity note;
-
-    wait;
+        wait;
     end process p_stimulus;
 
 end architecture testbench;
