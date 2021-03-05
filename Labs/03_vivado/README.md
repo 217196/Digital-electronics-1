@@ -97,6 +97,8 @@ Opt for "Boards" and pick desired board
 
 Add simulation sources and constrants 
 
+![step8](images/step8.png)
+
 ![step7](images/step7.png)
 
 And launch the simulation
