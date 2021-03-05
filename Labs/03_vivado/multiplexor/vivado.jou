@@ -10,4 +10,16 @@
 # Journal file: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor\vivado.jou
 #-----------------------------------------------------------
 start_gui
-opopen_project {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/multiplexor.xprup
+opopen_project {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/multiplexor.xprupupdate_compile_order -fileset sources_1
+launch_simulation
+source tb_mux_2bit_4to1.tcl
+relaunch_sim
+add_bp {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/multiplexor.srcs/sim_1/new/tb_mux_2bit_4to1.vhd} 70
+close_sim
+launch_simulation
+source tb_mux_2bit_4to1.tcl
+remove_bps -file {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/multiplexor.srcs/sim_1/new/tb_mux_2bit_4to1.vhd} -line 70
+add_bp {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/multiplexor.srcs/sim_1/new/tb_mux_2bit_4to1.vhd} 70
+remove_bps -file {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/multiplexor.srcs/sim_1/new/tb_mux_2bit_4to1.vhd} -line 70
+relaunch_sim
+close_sim
