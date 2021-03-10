@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed Mar 10 18:34:31 2021
+# Process ID: 8032
+# Current directory: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4316 C:\Users\eziok\Desktop\Everything\distancni vyuka 2021\Digital-electronics-1\Labs\03_vivado\multiplexor\multiplexor.xpr
+# Log file: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/vivado.log
+# Journal file: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/multiplexor.xpr}
+update_compile_order -fileset sources_1
