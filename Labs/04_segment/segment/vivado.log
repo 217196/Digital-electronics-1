@@ -325,3 +325,5 @@ open_run: Time (s): cpu = 00:00:31 ; elapsed = 00:00:20 . Memory (MB): peak = 12
 write_schematic C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/04_segment/images/schematic.png.sch
 ERROR: [Common 17-165] Too many positional options when parsing '2021/Digital-electronics-1/Labs/04_segment/images/schematic.png.sch', please type 'write_schematic -help' for usage info.
 close_design
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 10 23:36:55 2021...
