@@ -1,5 +1,5 @@
 # Segment decoder
-##Schematic
+## Schematic
 ![schematic](images/scheme.png)
 
 ## Seven-segment display decoder
