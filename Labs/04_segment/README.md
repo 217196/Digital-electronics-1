@@ -1,6 +1,6 @@
 # Segment decoder
 ##Schematic
-![schematic](images/schematic.png)
+![schematic](images/scheme.png)
 
 ## Seven-segment display decoder
 | **Hex** | **Input** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
