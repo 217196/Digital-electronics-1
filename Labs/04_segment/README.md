@@ -64,6 +64,22 @@
 
 end architecture behavioral;
 ```
+## VHDL code of (top.vhd)
+```vhdl
+ hex2seg : entity work.hex_7seg
+        port map
+        (
+            hex_i    => SW,
+            
+            seg_o(6) => CA,
+            seg_o(5) => CB,
+            seg_o(4) => CC,
+            seg_o(3) => CD,
+            seg_o(2) => CE,
+            seg_o(1) => CF,
+            seg_o(0) => CG
+        );
+```
 ## VHDL testbench (tb_hex_7seg.vhd)
 ```vhdl
 architecture Behavioral of tb_hex_7seg is
@@ -124,6 +140,26 @@ report "Stimulus process started" severity note;
 
 end Behavioral;
 ```
+## LEDs
+| **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| 0 | 0000 | 1 | 0 | 0 | 0 |
+| 1 | 0001 | 0 | 0 | 1 | 1 |
+| 2 | 0010 | 0 | 0 | 0 | 1 |
+| 3 | 0011 | 0 | 0 | 1 | 0 |
+| 4 | 0100 | 0 | 0 | 0 | 1 |
+| 5 | 0101 | 0 | 0 | 1 | 0 |
+| 6 | 0110 | 0 | 0 | 0 | 0 |
+| 7 | 0111 | 0 | 0 | 1 | 0 |
+| 8 | 1000 | 0 | 0 | 0 | 1 |
+| 9 | 1001 | 0 | 0 | 1 | 0 |
+| A | 1010 | 0 | 1 | 0 | 0 |
+| b | 1011 | 0 | 1 | 1 | 0 |
+| C | 1100 | 0 | 1 | 0 | 0 |
+| d | 1101 | 0 | 1 | 1 | 0 |
+| E | 1110 | 0 | 1 | 0 | 0 |
+| F | 1111 | 0 | 1 | 1 | 0 |
+
 ## VHDL code for LEDs(7:4)
 ```vhdl
     -- Display input value
