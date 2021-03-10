@@ -2,10 +2,10 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri Mar  5 23:25:40 2021
-# Process ID: 9124
+# Start of session at: Sat Mar  6 17:58:46 2021
+# Process ID: 13000
 # Current directory: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9156 C:\Users\eziok\Desktop\Everything\distancni vyuka 2021\Digital-electronics-1\Labs\03_vivado\multiplexor\multiplexor.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4704 C:\Users\eziok\Desktop\Everything\distancni vyuka 2021\Digital-electronics-1\Labs\03_vivado\multiplexor\multiplexor.xpr
 # Log file: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/vivado.log
 # Journal file: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor\vivado.jou
 #-----------------------------------------------------------
@@ -19,7 +19,7 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
-open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:06 . Memory (MB): peak = 1005.168 ; gain = 0.000
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:08 . Memory (MB): peak = 1001.703 ; gain = 0.000
 update_compile_order -fileset sources_1
 launch_simulation
 Command: launch_simulation 
@@ -31,7 +31,7 @@ INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
 INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/multiplexor.sim/sim_1/behav/xsim'
 "xvhdl --incr --relax -prj tb_mux_2bit_4to1_vhdl.prj"
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
 INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/multiplexor.sim/sim_1/behav/xsim'
 "xelab -wto 852c5aa932314adfa5d48b88698fc206 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_mux_2bit_4to1_behav xil_defaultlib.tb_mux_2bit_4to1 -log elaborate.log"
@@ -42,7 +42,7 @@ Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
 INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/multiplexor.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
@@ -67,8 +67,8 @@ Note: Stimulus process finished
 Time: 400 ns  Iteration: 0  Process: /tb_mux_2bit_4to1/p_stimulus  File: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/03_vivado/multiplexor/multiplexor.srcs/sim_1/new/tb_mux_2bit_4to1.vhd
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_mux_2bit_4to1_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:10 . Memory (MB): peak = 1005.168 ; gain = 0.000
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1001.703 ; gain = 0.000
 close_sim
 INFO: [Simtcl 6-16] Simulation closed
 exit
-INFO: [Common 17-206] Exiting Vivado at Fri Mar  5 23:26:59 2021...
+INFO: [Common 17-206] Exiting Vivado at Sat Mar  6 17:59:49 2021...
