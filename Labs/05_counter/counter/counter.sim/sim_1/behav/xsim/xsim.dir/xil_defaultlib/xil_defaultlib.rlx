@@ -2,5 +2,7 @@
 2020.2
 Nov 18 2020
 09:47:47
-C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/05_counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd,1615387613,vhdl,,,,tb_cnt_up_down,,,,,,,,
-C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/05_counter/counter/counter.srcs/sources_1/new/cnt_up_down.vhd,1615387282,vhdl,C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/05_counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd,,,cnt_up_down,,,,,,,,
+C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/05_counter/counter/counter.srcs/sim_1/new/tb_clock_enable.vhd,1615386800,vhdl,,,,tb_clock_enable,,,,,,,,
+C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/05_counter/counter/counter.srcs/sources_1/new/clock_enable.vhd,1615385991,vhdl,C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/05_counter/counter/counter.srcs/sim_1/new/tb_clock_enable.vhd,,,clock_enable,,,,,,,,
+C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/05_counter/counter/counter.srcs/sources_1/new/cnt_up_down.vhd,1615387282,vhdl,,,,cnt_up_down,,,,,,,,
+C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/05_counter/counter/counter.srcs/sources_1/new/top.vhd,1615928053,vhdl,,,,top,,,,,,,,
