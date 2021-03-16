@@ -134,4 +134,4 @@
 
    ```
 ### Image of the top layer including both counters
-![top](images/image0.jpg)
+![top](images/image0.png)
