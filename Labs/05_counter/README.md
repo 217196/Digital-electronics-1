@@ -43,8 +43,13 @@
     end process p_clk_ena;
     ```
     
-    ### Listing of VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd with syntax highlighting and asserts
     
+ 
+    
+    
+   Listing of VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd with syntax highlighting and asserts
+  
+  
     ```vhdl
       p_reset_gen : process
     begin
