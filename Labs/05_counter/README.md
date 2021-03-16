@@ -41,13 +41,13 @@
             end if;
         end if;
     end process p_clk_ena;
-    ```
+   ```
     
     
  
     
     
-   Listing of VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd with syntax highlighting and asserts
+   ### Listing of VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd with syntax highlighting and asserts
   
   
     ```vhdl
@@ -76,4 +76,11 @@
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
+    
     ```
+   
+### Screenshot with simulated time waveforms
+![screenshot](images/ss.png)
+
+## Top level
+### Listing of VHDL code from source file top.vhd with all instantiations for the 4-bit bidirectional counter
