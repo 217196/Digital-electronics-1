@@ -13,3 +13,15 @@ start_gui
 open_project {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/05_counter/counter/counter.xpr}
 }
 update_compile_order -fileset sources_1
+launch_simulation
+source tb_cnt_up_down.tcl
+close_sim
+launch_simulation
+source tb_cnt_up_down.tcl
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_cnt_up_down.tcl
+update_compile_order -fileset sources_1

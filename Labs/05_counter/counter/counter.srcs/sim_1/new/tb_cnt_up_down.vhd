@@ -52,8 +52,6 @@ begin
 
             elsif (en_i = '1') then       -- Test if counter is enabled
 
-
-                -- TEST COUNTER DIRECTION HERE
                 if (cnt_up_i = '1') then
                     
                     s_cnt_local <= s_cnt_local + 1;
