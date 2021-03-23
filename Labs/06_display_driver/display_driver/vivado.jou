@@ -14,3 +14,4 @@ open_project {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-ele
 aunch_simulation
 source tb_driver_7seg_4digits.tcl
 update_compile_order -fileset sources_1
+close_sim

@@ -74,3 +74,6 @@ INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_driver_7seg_4digits_beha
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 1004.031 ; gain = 0.000
 update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1004.031 ; gain = 0.000
