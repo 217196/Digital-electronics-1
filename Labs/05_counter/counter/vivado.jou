@@ -25,3 +25,12 @@ update_compile_order -fileset sources_1
 launch_simulation
 source tb_cnt_up_down.tcl
 update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+update_compile_order -fileset sources_1
+close [ open {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/05_counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd} w ]
+add_files {{C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/05_counter/counter/counter.srcs/sources_1/new/hex_7seg.vhd}}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_cnt_up_down.tcl
+close_sim
