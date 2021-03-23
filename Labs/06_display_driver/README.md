@@ -183,9 +183,6 @@ end architecture testbench;
 
 ## Listing of VHDL architecture of the top layer
 ```vhdl
-------------------------------------------------------------------------
--- Architecture body for top level
-------------------------------------------------------------------------
 architecture behavioral of top is
     -- No internal signals
 begin
