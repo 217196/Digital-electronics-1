@@ -2,28 +2,29 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Tue Mar 23 23:12:39 2021
-# Process ID: 16776
+# Start of session at: Wed Mar 17 16:39:54 2021
+# Process ID: 15940
 # Current directory: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8992 C:\Users\eziok\Desktop\Everything\distancni vyuka 2021\Digital-electronics-1\Labs\06_display_driver\display_driver\display_driver.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7752 C:\Users\eziok\Desktop\Everything\distancni vyuka 2021\Digital-electronics-1\Labs\06_display_driver\display_driver\display_driver.xpr
 # Log file: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver/vivado.log
 # Journal file: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver/display_driver.xpr}
-INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver'
-INFO: [Common 17-41] Interrupt caught. Command should exit soon.
-INFO: [Common 17-344] 'open_project' was cancelled
+ERROR: [Common 17-190] Invalid Tcl eval of 'exit' during processing of event '50'.
+ERROR: [Common 17-190] Invalid Tcl eval of 'open_project {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver/display_driver.xpr}' during processing of event '332'.
+ERROR: [Common 17-39] 'rdi::open_ppr_or_dcp' failed due to earlier errors.
 exit
-INFO: [Common 17-206] Exiting Vivado at Tue Mar 23 23:13:27 2021...
-iver/display_driver.gen/sources_1'.
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 17 16:40:27 2021...
+r using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver'
+WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver/display_driver.gen/sources_1'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
-open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:15 . Memory (MB): peak = 1004.031 ; gain = 0.000
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 1005.137 ; gain = 0.000
+update_compile_order -fileset sources_1
 launch_simulation
 Command: launch_simulation 
 INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
@@ -34,7 +35,7 @@ INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
 INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
 "xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
-INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
 INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
 "xelab -wto d91cccf3064a4f1090321dbbfbacfae5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log"
@@ -45,8 +46,7 @@ Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
 INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
-run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1004.031 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
@@ -69,8 +69,12 @@ Note: Stimulus process started
 Time: 0 ps  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4dig.vhd
 Note: Stimulus process finished
 Time: 0 ps  Iteration: 0  Process: /tb_driver_7seg_4digits/p_stimulus  File: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/06_display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4dig.vhd
-xsim: Time (s): cpu = 00:00:14 ; elapsed = 00:00:06 . Memory (MB): peak = 1004.031 ; gain = 0.000
+xsim: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 1005.137 ; gain = 0.000
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_driver_7seg_4digits_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 1004.031 ; gain = 0.000
+launch_simulation: Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1005.137 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
 update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 17 16:44:34 2021...
