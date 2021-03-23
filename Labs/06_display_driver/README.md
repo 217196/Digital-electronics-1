@@ -236,3 +236,4 @@ end architecture behavioral;
 
  ## Eight-digit driver
  ### Image of the driver schematic
+ ![schematic](images/schematic.png)
