@@ -77,3 +77,5 @@ update_compile_order -fileset sources_1
 close_sim
 INFO: [Simtcl 6-16] Simulation closed
 close_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1004.031 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 23 23:44:36 2021...
