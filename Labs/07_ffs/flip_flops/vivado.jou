@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Mar 30 22:54:18 2021
+# Process ID: 16544
+# Current directory: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/07_ffs/flip_flops
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14804 C:\Users\eziok\Desktop\Everything\distancni vyuka 2021\Digital-electronics-1\Labs\07_ffs\flip_flops\flip_flops.xpr
+# Log file: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/07_ffs/flip_flops/vivado.log
+# Journal file: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/07_ffs/flip_flops\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/07_ffs/flip_flops/flip_flops.xpr}
+export_ip_user_files -of_objects  [get_files {{C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/07_ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_ff_arst.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/07_ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_ff_arst.vhd}}
+update_compile_order -fileset sim_1
