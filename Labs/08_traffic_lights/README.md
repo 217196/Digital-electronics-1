@@ -16,7 +16,7 @@
 
 ## Traffic light controller
 ### State diagram
-
+![pic1](images/pic1.png)
 ###  Listing of VHDL code of sequential process p_traffic_fsm with syntax highlighting
 ```vhdl
 p_traffic_fsm : process(clk)
@@ -161,7 +161,7 @@ end architecture Behavioral;
 | `SOUTH_GO`   | green  | red | 4sec | 0XX or 101 |
 | `SOUTH_WAIT` | yellow | red | 2sec | - |
 ### State diagram
-
+![pic2](images/pic2.png)
 ### Listing of VHDL code of sequential process p_smart_traffic_fsm with syntax highlighting
 ```vhdl
 p_smart_traffic_fsm : process(clk)
