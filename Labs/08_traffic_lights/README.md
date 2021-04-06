@@ -155,10 +155,10 @@ end architecture Behavioral;
 | **current** | **-> south** | **-> west** | **wait** | **in** |
 | :-- | :-: | :-: | :-: | :-: |
 | `STOP1`      | red    | red | 1sec | - |
-| `WEST_GO`    | red    | green | 4sec | 0, X, X or 1, 1, 0 |
+| `WEST_GO`    | red    | green | 4sec | 0XX or 110 |
 | `WEST_WAIT`  | red    | yellow | 2sec | - |
 | `STOP2`      | red    | red | 1sec | - |
-| `SOUTH_GO`   | green  | red | 4sec | 0, X, X or 1, 0, 1 |
+| `SOUTH_GO`   | green  | red | 4sec | 0XX or 101 |
 | `SOUTH_WAIT` | yellow | red | 2sec | - |
 ### State diagram
 
