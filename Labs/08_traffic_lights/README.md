@@ -152,12 +152,14 @@ end architecture Behavioral;
 ## Smart controller
 ### State table
 
-| **current** | **x** | **-> west** | **-> south** | **both directions** |
+| **current** | **-> south** | **-> west** | **wait** | **in** |
 | :-- | :-: | :-: | :-: | :-: |
-| `WEST_GO`    | `WEST_GO`    | `WEST_GO` | `WEST_WAIT` | `WEST_WAIT` |
-| `WEST_WAIT`  | `SOUTH_GO` | `SOUTH_GO` | `SOUTH_GO` | `SOUTH_GO` |
-| `SOUTH_GO`   | `SOUTH_GO`  | `SOUTH_WAIT` | `SOUTH_GO` | `SOUTH_WAIT` |
-| `SOUTH_WAIT` | `WEST_GO` | `WEST_GO` | `WEST_GO` | `WEST_GO` |
+| `STOP1`      | red    | red | 1sec | - |
+| `WEST_GO`    | red    | green | 4sec | 0, X, X or 1, 1, 0 go to WEST_GO else go to WEST_WAIT |
+| `WEST_WAIT`  | red    | yellow | 2sec | - |
+| `STOP2`      | red    | red | 1sec | - |
+| `SOUTH_GO`   | green  | red | 4sec | 0, X, X or 1, 0, 1 go to SOUTH_GO else go to SOUTH_WAIT |
+| `SOUTH_WAIT` | yellow | red | 2sec | - |
 ### State diagram
 
 ### Listing of VHDL code of sequential process p_smart_traffic_fsm with syntax highlighting
