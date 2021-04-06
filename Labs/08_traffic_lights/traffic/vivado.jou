@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Apr  6 22:27:33 2021
+# Process ID: 7196
+# Current directory: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/08_traffic_lights/traffic
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10840 C:\Users\eziok\Desktop\Everything\distancni vyuka 2021\Digital-electronics-1\Labs\08_traffic_lights\traffic\traffic.xpr
+# Log file: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/08_traffic_lights/traffic/vivado.log
+# Journal file: C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/08_traffic_lights/traffic\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/eziok/Desktop/Everything/distancni vyuka 2021/Digital-electronics-1/Labs/08_traffic_lights/traffic/traffic.xpr}
